@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ucguy4u/ucguy4u.github.io/precache-manifest.492f9cd5ab801a2b356fa4e30c99d472.js"
+  "/ucguy4u.github.io/precache-manifest.917ec247d7caf5d3cb9ffa55d2f2edca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ucguy4u/ucguy4u.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/ucguy4u.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
